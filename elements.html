@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Generic</title>
+</head>
+
+<body class="">
+    <header
+        class="navbar navbar-expand-md headIndex navbar-dark bg-dark-1 p-3 position-fixed d-flex justify-content-between">
+
+        <div>
+            <a href="" class="logo navbar-brand fs-2 ms-5">introspect</a>
+        </div>
+        <nav class="">
+            <button id="buttonMenu" class="navbar-toggler border-0 me-3" type="button" data-bs-toggle="collapse"
+                onclick="showLmenu()">
+                <span class="navbar-toggler-icon" style="width: 20px;"></span>
+            </button>
+            <div id="myNav" class="collapse navbar-collapse me-5">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link colorMenu  me-5" href="./index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link colorMenu" href="./generic.html">GENERIC</a></li>
+                    <li class="nav-item"><a class="nav-link colorMenu ms-5" href="./elements.html">ELEMENTS</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <div id="lateralMenu" class="bg-dark-1 visible medidas absolut ms-auto collapse">
+        <div class="d-flex justify-content-end">
+            <span class="btn-close btn-close-white mt-4 me-4" data-bs-target="#lateralMen" onclick="hideLMenu()"
+                data-bs-toggle="collapse" style="width: 2px;"></span>
+        </div>
+        <div id="myNav2" class="collapse navbar-collapse d-flex justify-content-start">
+            <ul class="navbar-nav ms-3">
+                <li class="nav-item border-bottom border-secondary large270"><a class="nav-link colorMenu"
+                        href="#">HOME</a></li>
+                <li class="nav-item border-bottom border-secondary large270"><a class="nav-link colorMenu"
+                        href="#">GENERIC</a></li>
+                <li class="nav-item"><a class="nav-link colorMenu" href="#">ELEMENTS</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <main class="">
+        <section id="banner" class="text-start">
+            <div class="text-start" id="top-text">
+                <h1 class="text-light mb-5">
+                    <strnong class="fw-bold"> INTROSPECT: </strnong> A FREE + FULLY RESPONSIVE
+                    <br> SITE TEMPLATE BY TEMPLATED
+                </h1>
+                <button class="rounded-0 btn btn-outline-light border border-2 p-2">GET STARTED</button>
+            </div>
+        </section>
+        <section class="border-bottom border-danger mb-5 container">
+            <div class="container  mb-5">
+                <h1 class="text-danger mt-5">ELEMENTS</h1>
+                <span class="text-secondary">Lorem ipsum dolor sit amet nullam id egestas urna aliquam</span>
+                <h4 class="text-danger mb-3 mt-4">TEXT</h4>
+                <p>This is <b class="text-danger">bold</b> and this is <strong class="text-danger"> strong</strong>. <i>
+                        This is italic</i> and <em> this is emphasized</em>.
+                    This is <sup> superscript </sup> text and
+                    this is <sub> subscript </sub>text. This is <u> underlined</u> and this is code: <code
+                        class="code1 text-dark" class="text-dark"> for (;;) { ... }</code>. Finally, <a href=""
+                        class="text-danger text-decoration-none"> this is a
+                        link.</a></p>
+            </div>
+        </section>
+
+        <section class="border-bottom border-danger mb-5 container">
+            <div class="container  mb-5">
+                <h3 class="text-danger mt-5">HEADING WITH A SUBTITLE</h3>
+                <span class="text-secondary">Lorem ipsum dolor sit amet nullam id egestas urna aliquam</span>
+
+                <p class="mt-4 fw-light">Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor
+                    sem non mi integer non
+                    faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan
+                    varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+
+                <h4 class="text-danger mt-5">HEADING WITH A SUBTITLE</h4>
+                <span class="text-secondary">Lorem ipsum dolor sit amet nullam id egestas urna aliquam</span>
+
+                <p class="mt-4 fw-light">Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor
+                    sem non mi integer non
+                    faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan
+                    varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+
+            </div>
+        </section>
+
+        <section class="border-bottom border-danger mb-5 container">
+            <div class="container  mb-5">
+                <h2 class="text-danger mb-3">HEADING LEVEL 2</h2>
+                <h3 class="text-danger mb-3">HEADING LEVEL 3</h3>
+                <h4 class="text-danger mb-3">HEADING LEVEL 4</h4>
+                <h5 class="text-danger mb-3">HEADING LEVEL 5</h5>
+                <h6 class="text-danger mb-3">HEADING LEVEL 6</h6>
+            </div>
+        </section>
+
+        <section class=" mb-5 container">
+            <h3 class="text-danger mb-4">BLOCKQUOTE</h3>
+            <div class="container mb-5 border-danger border-start border-5">
+
+                <p class="fst-italic fw-light ms-3 lh-lg">Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt
+                    felis sagittis eget
+                    tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis
+                    iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem
+                    ipsum dolor sit amet nullam adipiscing eu felis.</p>
+            </div>
+
+            <h3 class="text-danger mb-4">PREFORMATTED</h3>
+            <pre>
+                <code>
+ i = 0;
+
+ while (!deck.isInOrder()) {
+ print 'Iteration ' + i;
+ deck.shuffle();
+ i++;
+ }
+                
+ print 'It took ' + i + ' iterations to sort the deck.';</code>
+            </pre>
+        </section>
+
+        <section class=" mb-5 container">
+            <h3 class="text-danger  mb-4">LISTS</h3>
+
+            <div class="row row-cols-2 gap-1 container justify-content-around">
+
+                <div class="mb-3 col-6">
+                    <h5 class="text-danger">UNORDERED</h5>
+                    <ul class="d-inline">
+                        <li>Dolor pulvinar etiam magna etiam.</li>
+                        <li>Sagittis adipiscing lorem eleifend.</li>
+                        <li>Felis enim feugiat dolore viverra.</li>
+                    </ul>
+                </div>
+
+                <div class="mb-3 col-5">
+                    <h5 class="text-danger">ORDERED</h5>
+                    <ol class="d-inline">
+                        <li>Dolor pulvinar etiam magna etiam.</li>
+                        <li>Etiam vel felis at lorem sed viverra.</li>
+                        <li>Felis enim feugiat dolore viverra.</li>
+                        <li>Dolor pulvinar etiam magna etiam.</li>
+                        <li>Etiam vel felis at lorem sed viverra.</li>
+                        <li>Felis enim feugiat dolore viverra.</li>
+                    </ol>
+                </div>
+
+                <div class="margin-negative col-6">
+                    <h5 class="text-danger">ALTERNATE</h5>
+                    <div class="border-bottom border-danger ">
+                        <p class="fw-light">Dolor pulvinar etiam magna etiam.</p>
+                    </div>
+                    <div class="border-bottom border-danger mt-2">
+                        <p class=" fw-light">Sagittis adipiscing lorem eleifend.</p>
+                    </div>
+                    <div class="mt-2">
+                        <p class="fw-light">Sagittis adipiscing lorem eleifend.</p>
+                    </div>
+                </div>
+
+                <div class="col-5">
+                    <h5 class="text-danger mb-3">ICONS</h5>
+                    <ul class="d-md-inline">
+                        <li class="list-unstyled li-list-icons d-inline me-2"><a href="#"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-twitter" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                </svg></a></li>
+                        <li class="list-unstyled d-inline ms-2 me-2"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="30" height="30" fill="currentColor" class="bi bi-facebook"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                </svg></a></li>
+                        <li class="list-unstyled d-inline ms-2 me-2"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="30" height="30" fill="currentColor" class="bi bi-instagram"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                </svg></a></li>
+                    </ul>
+                    <ul class="d-md-inline">
+                        <li class="list-unstyled d-inline ms-2 me-2"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                                </svg></a></li>
+                        <li class="list-unstyled d-inline ms-2 me-2"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="30" height="30" fill="currentColor" class="bi bi-basket2"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0v-2z" />
+                                    <path
+                                        d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6H2.163z" />
+                                </svg></a></li>
+                        <li class="list-unstyled d-inline ms-2 me-2"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="30" height="30" fill="currentColor" class="bi bi-twitch" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.857 0L1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429l-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z" />
+                                    <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z" />
+                                </svg></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h5 class="text-danger mb-4">ACTIONS</h5>
+            <div class="row row-cols-2 row-col-md-3">
+                <div class="mb-4 col-12">
+                    <ul>
+                        <li class="d-inline"><a href=""
+                                class="me-2 btn btn-danger rounded-0 ps-4 pe-4 pt-2 pb-2  ">SPECIAL</a></li>
+                        <li class="d-inline"><a href=""
+                                class="me-2 btn btn-secondary rounded-0 ps-4 pe-4 pt-2 pb-2  ">DEFAULT</a></li>
+                        <li class="d-inline"><a href=""
+                                class="btn btn-outline-danger rounded-0 ps-4 pe-4 pt-2 pb-2 border-2 ">ALTERNATE</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mb-4 col-12">
+                    <ul>
+                        <li class="d-inline"><a href=""
+                                class="me-2 btn btn-danger rounded-0 ps-4 pe-4 pt-2 pb-2  ">SMALL</a></li>
+                        <li class="d-inline"><a href=""
+                                class="me-2 btn btn-secondary rounded-0 ps-4 pe-4 pt-2 pb-2  ">SMALL</a></li>
+                        <li class="d-inline"><a href=""
+                                class="btn btn-outline-danger rounded-0 ps-4 pe-4 pt-2 pb-2 border-2 ">SMALL</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-4 mLeft10px">
+                    <div class="row row-cols-2">
+                        <ul class="list-unstyled col-5">
+                            <li class="mb-3"><a href=""
+                                    class="me-2 btn btn-danger rounded-0 ps-4 pe-4 pt-2 pb-2  ">VERTICAL</a></li>
+                            <li class="mb-3"><a href=""
+                                    class="me-2 btn btn-secondary rounded-0 ps-4 pe-4 pt-2 pb-2  ">VERTICAL</a></li>
+                            <li class="mb-3"><a href=""
+                                    class="btn btn-outline-danger rounded-0 ps-4 pe-4 pt-2 pb-2 border-2 ">VERTICAL</a>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled col-5">
+                            <li class="mb-3"><a href=""
+                                    class="me-2 btn btn-danger rounded-0 ps-4 pe-4 pt-2 pb-2  ">SMALL</a></li>
+                            <li class="mb-3"><a href=""
+                                    class="me-2 btn btn-secondary rounded-0 ps-4 pe-4 pt-2 pb-2  ">SMALL</a></li>
+                            <li class="mb-3"><a href=""
+                                    class="btn btn-outline-danger rounded-0 ps-4 pe-4 pt-2 pb-2 border-2 ">SMALL</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-7 mLeft10px">
+                    <div class="row row-cols-2 justify-content-start">
+                        <ul class="list-unstyled col-5">
+                            <li class="mb-3"><a href="" class="me-2 btn btn-danger rounded-0 btn-padding-l ">FIT</a>
+                            </li>
+                            <li class="mb-3"><a href="" class="me-2 btn btn-secondary rounded-0 btn-padding-l  ">FIT</a>
+                            </li>
+                            <li class="mb-3"><a href=""
+                                    class="btn btn-outline-danger rounded-0 btn-padding-l border-2 ">FIT</a>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled col-5">
+                            <li class="mb-3"><a href="" class="me-2 btn btn-danger rounded-0 btn-padding-r ">SMALL</a>
+                            </li>
+                            <li class="mb-3"><a href=""
+                                    class="me-2 btn btn-secondary rounded-0 btn-padding-r  ">SMALL</a></li>
+                            <li class="mb-3"><a href=""
+                                    class="btn btn-outline-danger rounded-0 btn-padding-r border-2 ">SMALL</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class=" mb-5 container">
+            <h5 class="text-danger mb-4">TABLE</h5>
+            <h4 class="text-danger mb-4">DEFAULT</h4>
+            <table class="table border-danger">
+
+                <thead>
+                    <tr class="border-top-0 border-danger border-end-0 border-start-0 border-3">
+                        <th scope="col" class="text-danger">Name</th>
+                        <th scope="col" class="text-danger">Description</th>
+                        <th scope="col" class="text-danger">Price</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row" class="fw-light">Item <br>1</th>
+                        <td class="fw-light">Ante turpis integer aliquet porttitor.</td>
+                        <td class="fw-light">29.99</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="fw-light">Item <br>2</th>
+                        <td class="fw-light">Vis ac commodo adipiscing arcu aliquet.</td>
+                        <td class="fw-light">19.99</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="fw-light">Item <br>3</th>
+                        <td class="fw-light">Morbi faucibus arcu accumsan lorem.</td>
+                        <td class="fw-light">29.99</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="fw-light">Item <br>4</th>
+                        <td class="fw-light">Vitae integer tempus condimentum.</td>
+                        <td class="fw-light">19.99</td>
+                    </tr>
+                    <tr class=" border-danger">
+                        <th scope="row" class="fw-light ">Item <br>5</th>
+                        <td class="fw-light">Ante turpis integer aliquet porttitor.</td>
+                        <td class="fw-light">29.99</td>
+                    </tr>
+                    <tr class="border-danger border-end-0 border-start-0 border-bottom-0 border-3">
+                        <td class="border-0"></td>
+                        <td class="border-0"></td>
+                        <td class="fw-light border-0">100.00</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <h4 class="text-danger mb-4 mt-5">ALTERNATE</h4>
+            <table class="table border-danger table-bordered">
+
+                <thead>
+                    <tr class="border-top-0 border-danger border-end-0 border-start-0">
+                        <th scope="col" class="text-danger border-0">Name</th>
+                        <th scope="col" class="text-danger border-0">Description</th>
+                        <th scope="col" class="text-danger border-0">Price</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr class="">
+                        <th scope="row" class="fw-light">Item <br>1</th>
+                        <td class="fw-light">Ante turpis integer aliquet porttitor.</td>
+                        <td class="fw-light">29.99</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="fw-light">Item <br>2</th>
+                        <td class="fw-light">Vis ac commodo adipiscing arcu aliquet.</td>
+                        <td class="fw-light">19.99</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="fw-light">Item <br>3</th>
+                        <td class="fw-light">Morbi faucibus arcu accumsan lorem.</td>
+                        <td class="fw-light">29.99</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="fw-light">Item <br>4</th>
+                        <td class="fw-light">Vitae integer tempus condimentum.</td>
+                        <td class="fw-light">19.99</td>
+                    </tr>
+                    <tr class=" border-danger">
+                        <th scope="row" class="fw-light ">Item <br>5</th>
+                        <td class="fw-light">Ante turpis integer aliquet porttitor.</td>
+                        <td class="fw-light">29.99</td>
+                    </tr>
+                    <tr class=" border-bottom-0 ">
+                        <td class="border-0"></td>
+                        <td class="border-0"></td>
+                        <td class="fw-light border-0">100.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class=" mb-5 container">
+            <h5 class="text-danger mb-4">BUTTONS</h5>
+            <div>
+                <div>
+                    <button class="me-3 btn btn-danger rounded-0 ps-4 pe-4 pt-2 pb-2 ">SPECIAL</button>
+                    <button class="me-3 btn btn-secondary rounded-0 ps-4 pe-4 pt-2 pb-2 ">DEFAULT</button>
+                    <button
+                        class="btn btn-outline-danger rounded-0 ps-4 pe-4 pt-2 pb-2 border-2">ALTERNATE</button><br><br>
+                    <button class="me-3 btn btn-danger rounded-0 ps-5 pe-5 pt-4 pb-4 ">BIG</button>
+                    <button class="me-3 btn btn-secondary rounded-0 ps-4 pe-4 pt-2 pb-2 ">DEFAULT</button>
+                    <button class="btn btn-outline-danger rounded-0 ps-4 pe-4 pt-2 pb-2 border-2">SMALL</button><br><br>
+                </div>
+                <div class="col-12">
+                    <button class="me-2 btn btn-secondary rounded-0  bton-padding-l2">FIT</button>
+                    <button class="me-2 btn btn-outline-danger border-2 rounded-0  bton-padding-l2">FIT</button>
+                    <button class="me-2 btn btn-secondary rounded-0 btn-padding-r2 ">FIT + SMALL</button>
+                    <button class="me-2 btn btn-outline-danger border-2 rounded-0 btn-padding-r2 ">FIT + SMAL</button>
+                </div><br>
+
+                <div>
+                    <button class="me-3 btn btn-danger rounded-0 ps-4 pe-4 pt-2 pb-2 "><svg class="me-2"
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-download" viewBox="0 0 16 16">
+                            <path
+                                d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                            <path
+                                d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                        </svg>ICON</button>
+                    <button class="me-3 btn btn-secondary rounded-0 ps-4 pe-4 pt-2 pb-2 "><svg class="me-2"
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-download" viewBox="0 0 16 16">
+                            <path
+                                d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                            <path
+                                d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                        </svg>ICON</button>
+                    <button class="btn btn-outline-danger rounded-0 ps-4 pe-4 pt-2 pb-2 border-2"><svg class="me-2"
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-download" viewBox="0 0 16 16">
+                            <path
+                                d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                            <path
+                                d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                        </svg>ICON</button><br><br>
+                </div>
+                <div>
+                    <button class="me-3 disabled btn btn-danger rounded-0 ps-4 pe-4 pt-2 pb-2 ">SPECIAL</button>
+                    <button class="me-3 disabled btn btn-secondary rounded-0 ps-4 pe-4 pt-2 pb-2 ">DEFAULT</button>
+                    <button
+                        class="btn disabled btn-outline-danger rounded-0 ps-4 pe-4 pt-2 pb-2 border-2">ALTERNATE</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid">
+            <div class="container-mw900 m-auto">
+                <h5 class="text-danger mb-4">FORM</h5>
+
+                <form action="" class="row g-3 justify-content-around">
+                    <div class="d-inline col-6">
+                        <input type="text" name="name" id="name" placeholder="Name"
+                            class="elements-form form-control rounded-0">
+                    </div>
+                    <div class="d-inline col-6">
+                        <input type="email" name="email" id="email" placeholder="Email"
+                            class="elements-form form-control rounded-0">
+                    </div>
+                    <div class="col-12">
+                        <select name="otions" id="options" class="col-6 elements-form form-select rounded-0">
+                            <option value="-Category-" selected>-Category-</option>
+                            <option value="Manufacturing">Manufacturing</option>
+                            <option value="Shipping">Shipping</option>
+                            <option value="Administration">Administration</option>
+                            <option value="Human Resources">Human Resources</option>
+                        </select>
+                    </div>
+
+                    <div class="d-flex mb-4 justify-content-between ">
+                        <div class="col-2 col-md-3">
+                            <input type="checkbox" id="low" checked
+                                class="col-auto p-3 me-2 desmBox form2-check form-check-input" name="" id=""
+                                onclick="desmarcarBoxLow()">
+                            <label for="" class="col-auto form-check-label mt-2">LOW PRIORITY</label>
+                        </div>
+
+                        <div class="col-3 col-md-3">
+                            <input type="checkbox" id="normal"
+                                class="col-auto p-3 me-2 desmBox form2-check form-check-input" name="" id=""
+                                onclick="desmarcarBoxNormal()">
+                            <label for="" class="col-auto form-check-label mt-2 ">NORMAL PRIORITY</label>
+                        </div>
+
+                        <div class="col-2 col-md-3">
+                            <input type="checkbox" id="high"
+                                class="col-auto p-3 me-2 desmBox form2-check form-check-input" name="" id=""
+                                onclick="desmarcarBoxHigh()">
+                            <label for="" class="col-auto form-check-label mt-2">HIGH PRIORITY</label>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-around">
+                        <div class="col-12 col-md-5 mb-3">
+                            <input type="checkbox" class="col-auto p-3  desmBox rounded-0 form3-check form-check-input"
+                                name="" id="">
+                            <label for="" class="col-auto form-check-label mt-2">EMAIL ME A COPY OF THIS MESSAGE</label>
+                        </div>
+                        <div class="col-12 col-md-5 mb-3">
+                            <input type="checkbox" checked
+                                class="col-auto p-3  desmBox rounded-0 form3-check form-check-input" name="" id="">
+                            <label for="" class="col-auto form-check-label mt-2">I AM A HUMAN AND NOT A ROBOT</label>
+                        </div>
+                    </div>
+                    <div>
+                        <textarea name="" placeholder="Enter your message" id="" cols="30" rows="10" style="width: 98%;"
+                            class="textarea-element-main mb-3 me-2 ms-2 form-control rounded-0"></textarea>
+                    </div>
+                    <div class="mb-4 ms-3">
+                        <button class="me-3 btn btn-danger rounded-0 ps-4 pe-4 pt-2 pb-2 ">SEND MESSAGE</button>
+                        <button class="me-3 btn btn-secondary rounded-0 ps-4 pe-4 pt-2 pb-2 ">RESET</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="mb-5">
+            <div class="container">
+                <h5 class="text-danger mb-3">IMAGE</h5>
+                <h5 class="text-danger mb-3">FIT</h5>
+            </div>
+            <div class=" container">
+                <div>
+                    <img src="./images/pic11.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="row row-cols-3 mb-5">
+                    <img src="./images/pic03.jpg" class="mt-4 " alt="">
+                    <img src="./images/pic04.jpg" class="mt-4 " alt="">
+                    <img src="./images/pic05.jpg" class="mt-4 " alt="">
+                    <img src="./images/pic05.jpg" class="mt-4 " alt="">
+                    <img src="./images/pic03.jpg" class="mt-4" alt="">
+                    <img src="./images/pic04.jpg" class="mt-4 " alt="">
+                    <img src="./images/pic04.jpg" class="mt-4 " alt="">
+                    <img src="./images/pic05.jpg" class="mt-4 " alt="">
+                    <img src="./images/pic03.jpg" class="mt-4 " alt="">
+                </div>
+            </div>
+
+            <div class="container">
+                <h5 class="text-danger mb-3">LEFT & RIGHT</h5>
+                <div>
+                    <img src="./images/pic06.jpg" class=" float-start me-3" alt="">
+                    <p class=" fw-light fs-5">Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis
+                        eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu
+                        felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent
+                        tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus
+                        vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.
+                        Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis
+                        eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu
+                        felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent
+                        tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus
+                        vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.
+                        Integer ac pellentesque praesent.</p><br>
+                    <img src="./images/pic06.jpg" class=" float-end ms-3" alt="">
+                    <p class=" fw-light fs-5">Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis
+                        eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu
+                        felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent
+                        tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus
+                        vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.
+                        Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis
+                        eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu
+                        felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent
+                        tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus
+                        vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.
+                        Integer ac pellentesque praesent.</p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="bg-danger p-5">
+        <div class="container-mw900 m-auto">
+            <h3 class="text-light fs-2 mb-4">GET IN TOUCH</h3>
+
+            <form action="" class="row g-3 justify-content-around">
+                <div class="d-inline col-6">
+                    <label for="" class="text-light">NAME</label>
+                    <input type="text" name="name" id="name"
+                        class="input-footer form-control bg-footer-elements rounded-0">
+                </div>
+                <div class="d-inline col-6">
+                    <label for="" class="text-light">EMAIL</label>
+                    <input type="email" name="email" id="email"
+                        class="input-footer form-control bg-footer-elements rounded-0">
+                </div>
+                <label for="" class="text-light">MESSAGE</label><br>
+                <textarea name="" id="" cols="30" rows="10" style="width: 98%;"
+                    class="textarea-footer mb-3 me-2 ms-2 form-control bg-footer-elements rounded-0"></textarea>
+            </form>
+            <button class="mb-4 mt-2 btn btn-outline-light p-2 rounded-0 border-2">SEND
+                MESSAGE</button>
+            <div class="m-auto">
+                <p class="text-start text-light">© Untitled Design: TEMPLATED. Images Unsplash</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./javascript/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

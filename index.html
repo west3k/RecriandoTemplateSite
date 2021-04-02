@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Site 3</title>
+</head>
+
+<body class="">
+    <header
+        class="navbar navbar-expand-md headIndex navbar-dark bg-dark-1 p-3 position-fixed d-flex justify-content-between">
+
+        <div>
+            <a href="" class="logo navbar-brand fs-2 ms-5">introspect</a>
+        </div>
+        <nav class="">
+            <button id="buttonMenu" class="navbar-toggler border-0 me-3" type="button" data-bs-toggle="collapse"
+                onclick="showLmenu()">
+                <span class="navbar-toggler-icon" style="width: 20px;"></span>
+            </button>
+            <div id="myNav" class="collapse navbar-collapse me-5">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link colorMenu  me-5" href="./index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link colorMenu" href="./generic.html">GENERIC</a></li>
+                    <li class="nav-item"><a class="nav-link colorMenu ms-5" href="./elements.html">ELEMENTS</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <div id="lateralMenu" class="bg-dark-1 visible medidas absolut ms-auto collapse">
+        <div class="d-flex justify-content-end">
+            <span class="btn-close btn-close-white mt-4 me-4" data-bs-target="#lateralMen" onclick="hideLMenu()"
+                data-bs-toggle="collapse" style="width: 2px;"></span>
+        </div>
+        <div id="myNav2" class="collapse navbar-collapse d-flex justify-content-start">
+            <ul class="navbar-nav ms-3">
+                <li class="nav-item border-bottom border-secondary large270"><a class="nav-link colorMenu"
+                        href="#">HOME</a></li>
+                <li class="nav-item border-bottom border-secondary large270"><a class="nav-link colorMenu"
+                        href="#">GENERIC</a></li>
+                <li class="nav-item"><a class="nav-link colorMenu" href="#">ELEMENTS</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <main class="position-relative">
+        <section id="banner" class="text-start">
+            <div class="text-start" id="top-text">
+                <h1 class="text-light mb-5">
+                    <strnong class="fw-bold"> INTROSPECT: </strnong> A FREE + FULLY RESPONSIVE
+                    <br> SITE TEMPLATE BY TEMPLATED
+                </h1>
+                <button class="rounded-0 btn btn-outline-light border border-2 p-2">GET STARTED</button>
+            </div>
+        </section>
+
+        <section class="mt-n5">
+            <div class="container">
+                <h2 class="text-danger marginH2 mb-5 fw-light">MAGNA ETIAM LOREM</h2>
+                <p class="mt-5 mb-4 fs-5 fw-light">Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam
+                    sit amet mi ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet nibh viverra
+                    malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel, arcu, erisque hendrerit tellus.
+                    Integer sagittis. Vivamus a mauris eget arcu gravida tristique. Nunc iaculis mi in ante.</p>
+                <button class="btn btn-outline-danger p-3 border-3 fw-light rounded-0">LEARN MORE</button>
+            </div>
+
+        </section>
+
+        <section class="bg-light">
+
+            <div class="mt-5 m-auto row justify-content-around container">
+                <div class="col-sm-12 col-md-6 col-lg-5">
+
+                    <div class="">
+                        <h4 class="mb-4 mt-5 text-danger fs-3">PELLENTESQUE ADIPIS</h4>
+                        <img src="./images/pic01.jpg" class="cardImg img-fluid mb-4 m-auto">
+                        <p class=" mb-5 fw-light fs-5">Cumsan mollis eros. Pellentesque a diam sit amet mi magna
+                            ullamcorper
+                            vehicula. Integer adipiscin sem. Nullam quis massa sit amet lorem ipsum feugiat tempus.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-5">
+
+                    <div class="">
+                        <h4 class=" mb-4 mt-5 text-danger fs-3">MORBI INTERDUM MOL</h4>
+                        <img src="./images/pic02.jpg" class="cardImg mb-4 m-auto">
+                        <p class=" mb-5 fw-light fs-5">Cumsan mollis eros. Pellentesque a diam sit amet mi magna
+                            ullamcorper
+                            vehicula. Integer adipiscin sem. Nullam quis massa sit amet lorem ipsum feugiat tempus.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="p-5 row">
+
+                    <div class="card border-0  col-lg-4 col-sm-12">
+                        <div class="card-body">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                                class="bi bi-laptop mb-4" viewBox="0 0 16 16">
+                                <path
+                                    d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z" />
+                            </svg>
+                            <h3 class="card-title text-danger mb-4">TEMPUS FEUGIAT</h3>
+                            <p class="card-text text-secondary mb-4">Morbi interdum mollis sapien. Sed ac risus.
+                                Phasellus lacinia, magna
+                                lorem ullamcorper laoreet, lectus arcu.</p>
+                            <button class="mb-4 btn btn-outline-danger p2 rounded-0 border-2 fw-bold">LEARN
+                                MORE</button>
+                        </div>
+                    </div>
+
+                    <div class="card border-0 col-lg-4 col-sm-12">
+                        <div class="card-body">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                                class="bi bi-octagon-half mb-4" viewBox="0 0 16 16">
+                                <path
+                                    d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM8 15h2.9l4.1-4.1V5.1L10.9 1H8v14z" />
+                            </svg>
+                            <h3 class="card-title text-danger mb-4">ALIQUAM NULLA</h3>
+                            <p class="card-text text-secondary mb-4">Ut convallis, sem sit amet interdum consectetuer,
+                                odio augue aliquam
+                                leo, nec dapibus tortor nibh sed.</p>
+                            <button class="mb-4 btn btn-outline-danger p2 rounded-0 border-2 fw-bold">LEARN
+                                MORE</button>
+                        </div>
+                    </div>
+
+                    <div class="card border-0  col-lg-4 col-sm-12">
+                        <div class="card-body">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                                class="bi bi-lock mb-4" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z" />
+                            </svg>
+                            <h3 class="card-title text-danger mb-4">SED MAGNA</h3>
+                            <p class="card-text text-secondary mb-4">Suspendisse mauris. Fusce accumsan mollis eros.
+                                Pellentesque a diam sit
+                                amet mi ullamcorper vehicula.</p>
+                            <button class="mb-4 btn btn-outline-danger p2 rounded-0 border-2 fw-bold">LEARN
+                                MORE</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-danger p-5">
+        <div class="container-mw900 m-auto">
+            <h3 class="text-light fs-2 mb-4">GET IN TOUCH</h3>
+
+            <form action="" class="row g-3 justify-content-around">
+                <div class="d-inline col-6">
+                    <label for="" class="text-light">NAME</label>
+                    <input type="text" name="name" id="name" class=" form-control bg-footer-elements rounded-0">
+                </div>
+                <div class="d-inline col-6">
+                    <label for="" class="text-light">EMAIL</label>
+                    <input type="email" name="email" id="email" class=" form-control bg-footer-elements rounded-0">
+                </div>
+                <label for="" class="text-light">MESSAGE</label><br>
+                <textarea name="" id="" cols="30" rows="10" style="width: 98%;"
+                    class="mb-3 me-2 ms-2 form-control bg-footer-elements rounded-0"></textarea>
+            </form>
+            <button class="mb-4 mt-2 btn btn-outline-light p-2 rounded-0 border-2">SEND
+                MESSAGE</button>
+            <div class="m-auto">
+                <p class="text-start text-light">© Untitled Design: TEMPLATED. Images Unsplash</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./javascript/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
